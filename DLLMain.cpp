@@ -300,7 +300,7 @@ void PostRender(uintptr_t _this, UCanvas* canvas)
 	{
 		CWINGui::DrawCircle({ (float)GetSystemMetrics(SM_CXSCREEN) / 2, (float)GetSystemMetrics(SM_CYSCREEN) / 2 }, radius, Lineamount, circlecol);
 	}
-	if (CWINGui::Window(skCrypt(" Dedsec Private Meme"), &pos, FVector2D{ 500.0f, 400.0f }, menu_opened))
+	if (CWINGui::Window(skCrypt(" gay"), &pos, FVector2D{ 500.0f, 400.0f }, menu_opened))
 	{
 		//Simple Tabs
 		static int tab = 0;
